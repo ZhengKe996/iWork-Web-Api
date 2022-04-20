@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="top.fanzhengke.api.mapper.TbWorkdayMapper">
+<mapper namespace="top.fanzhengke.api.db.mapper.TbWorkdayMapper">
 
-    <resultMap id="BaseResultMap" type="top.fanzhengke.api.domain.TbWorkday">
+    <resultMap id="BaseResultMap" type="top.fanzhengke.api.db.domain.TbWorkday">
         <id property="id" column="id" jdbcType="INTEGER"/>
         <result property="date" column="date" jdbcType="DATE"/>
     </resultMap>
