@@ -3,12 +3,9 @@ package top.fanzhengke.api.config;
 
 import cn.dev33.satoken.stp.StpInterface;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import top.fanzhengke.api.mapper.TbUserMapper;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class StpInterfaceImpl implements StpInterface {
     @Autowired
